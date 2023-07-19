@@ -1,0 +1,24 @@
+.parent{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+}
+
+.child{
+    position: absolute;
+    border: 1px solid blue;
+    top: 30px;
+    left: 30px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    border: 1px solid red;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
+    border: 1px solid red;
+}
